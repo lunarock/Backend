@@ -14,7 +14,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone repo Frontend') {
+        stage('Clone repo Backend') {
             steps {
 		checkout scm
             }
